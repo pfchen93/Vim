@@ -32,3 +32,6 @@ nnoremap <silent> <Leader>+ :exe "vertical resize " . (winheight(0) * 3/2)<CR>
 nnoremap <silent> <Leader>- :exe "vertical resize " . (winheight(0) * 2/3)<CR>
 nnoremap <silent> <Leader>h+ :exe "resize " . (winheight(0) * 3/2)<CR>
 nnoremap <silent> <Leader>h- :exe "resize " . (winheight(0) * 2/3)<CR>
+
+" set net_tree
+let g:netrw_liststyle=3
