@@ -1,10 +1,11 @@
 syntax on
+filetype plugin indent on 
 colorscheme evening
 set number
-set autoindent
 set ts=4
 set shiftwidth=4
 set expandtab
+set autoindent
 set cursorline
 
 " show the matching part of the pair for [] {} and ()
